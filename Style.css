@@ -1,3 +1,86 @@
+/*MobileFirst*/
+/*--Debut--*/
+
+/*For mobile phones: */
+@media only screen and (max-width: 600px) {
+    .label {
+        font-size: 1.8em;
+        padding-left: 0px !important;
+    }
+    .input {
+        width: 20em !important;
+        height: 3.8em !important;
+        align-items: center;
+    }
+    .flex-form {
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .logo-image {
+        top: 0em !important;
+    }
+    
+    #Txt-confirmationMdp {
+        text-align: center;
+    }
+}
+  
+/* For desktop: */  
+@media only screen and (min-width: 600px) {
+    .label {
+        font-size: 2em;
+    }
+    .input {
+        width: 50em !important;
+        height: 5em !important;
+    }
+
+    .container-lien {
+        justify-items: center;
+    }
+
+    #deja-inscrit {
+        text-transform: uppercase;
+        font-size: larger;
+        font-weight: 600;
+    }
+
+    #connecte-toi {
+        text-transform: uppercase;
+        font-size: larger;
+        font-weight: 600;
+    }
+
+    .btn-input {
+        font-size: .8em;
+        border-radius: 35px !important;
+    }
+
+    #btn-minscrire {
+        font-size: 2em;
+    }
+
+}
+/*--Fin--*/
+
+/*CssSansClass*/
+/*--Debut--*/
+body {
+    background-color: #c4c4c4;
+}
+
+input {
+    border-radius: 2em;
+    border: solid whitesmoke .5em;
+}
+
+
+p {
+    font-family : 'Itim', cursif;
+}
+/*--Fin--*/
+
 /*Logo*/
 /*--Debut--*/
 .wrapper {
@@ -7,16 +90,79 @@
 }
 
 .logo {
-    /*background-color: aqua;*/
+    z-index: 1;
+
     border-radius: 20px;
     padding: 2em;
 }
 
 .logo-image {
+    position: relative;
+    top: 3.5em;
+    left: -0.35em;
+
     width: 170px;
     height: 170px;
+
     border-radius: 50%;
-    border: solid black 1px ;
+    border: solid black 1px;
+}
+/*--Fin--*/
+
+/*ContainerForm&Liens*/
+/*--Debut--*/
+.container-form-liens {
+    position: relative;
+    top: -3.8em;
+}
+/*--fin--*/
+
+/*ContainerRetourPageConnection*/
+/*--Debut*/
+.container-lien {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.lien-form {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#deja-inscrit {
+
+    grid-column: 2/3;
+    white-space: nowrap;
+
+    position: relative;
+    top: 1.5em;
+    padding: 0.5em;
+    height: 2.5em;
+
+    border-radius: 20px;
+    border: solid whitesmoke 2px;
+    background-color: whitesmoke;
+}
+#deja-inscrit:hover {
+    text-decoration: underline;
+}
+
+#connecte-toi {
+
+    grid-column: 6/7;
+    white-space: nowrap;
+
+    position: relative;
+    top: 1.5em;
+    padding: 0.5em;
+    height: 2.5em;
+
+    border-radius: 20px;
+    border: solid whitesmoke 2px;
+    background-color: whitesmoke;
+}#connecte-toi:hover {
+    text-decoration: underline;
 }
 /*--Fin--*/
 
@@ -28,7 +174,7 @@
     align-items: center;
     flex-direction: column;
 
-    background-color:  brown;
+    background-color:  whitesmoke;
     border-radius: 20px;
     padding: 2em;
     font-family : 'Itim', cursif;
@@ -39,17 +185,48 @@
     display: flex;
     flex-direction: column;
 }
-/*--Fin--*/
 
-/*CssSansClass*/
-/*--Debut--*/
-input {
-    border-radius: 2em;
-    border: solid whitesmoke .5em;
+.label {
+    padding-left: 1.5em;
 }
 
+.input {
+    width: 30em;
+    height: 3em;
+    
 
-p {
-    font-family : 'Itim', cursif;
+    padding: .25em;
+    margin-bottom: 1em;
+
+    background-color: #d9d9d9;
+}
+
+/*Bouton M'inscrire*/
+.btn-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 10em;
+    height: 3em;
+
+    padding: .25em;
+    margin-bottom: 1em;
+
+    background-color: #d9d9d9;
+
+    border: solid whitesmoke 2px;
+    border-radius: 20px;
+
+}
+
+.btn-input:hover {
+    text-decoration: underline;
+}
+
+#btn-minscrire {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /*--Fin--*/
