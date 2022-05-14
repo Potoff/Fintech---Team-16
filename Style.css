@@ -1,0 +1,55 @@
+/*Logo*/
+/*--Debut--*/
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 0fr);
+    justify-content: center;
+}
+
+.logo {
+    /*background-color: aqua;*/
+    border-radius: 20px;
+    padding: 2em;
+}
+
+.logo-image {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: solid black 1px ;
+}
+/*--Fin--*/
+
+/*LesformulairesDeConnection*/
+/*--Debut--*/
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color:  brown;
+    border-radius: 20px;
+    padding: 2em;
+    font-family : 'Itim', cursif;
+    
+}
+
+.flex-form {
+    display: flex;
+    flex-direction: column;
+}
+/*--Fin--*/
+
+/*CssSansClass*/
+/*--Debut--*/
+input {
+    border-radius: 2em;
+    border: solid whitesmoke .5em;
+}
+
+
+p {
+    font-family : 'Itim', cursif;
+}
+/*--Fin--*/
