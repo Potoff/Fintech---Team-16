@@ -1,0 +1,58 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link href="../Style.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="logo">
+            <img class="logo-image animate__animated animate__backInDown" src="../images/Logo.png" alt="logo transpoProjet">
+        </div>
+    </div>
+    <div class="container-form-liens">
+        <div class="container-lien">
+            <div id="deja-inscrit" >
+                <a class="lien-form" href="../Index.html" >Déjà inscrit</a> 
+            </div>
+            <div id="connecte-toi">
+                <a class="lien-form" href="../Index.html" >Connecte-toi</a> 
+            </div>
+        </div>
+        <div class="form">
+            <form>
+                <div class="flex-form">
+                    <label id="txt-nom" class="label" for="name">
+                        Nom
+                    </label>
+                    <input id="input-pom" class="input" type="text" name="name" maxlength="20" required>
+                    <label id="txt-prenom" class="label" for="prenom">
+                        Prénom
+                    </label>
+                    <input id="input-prenom" class="input" type="text" name="prenom" maxlength="30" required>
+
+                    <label id="txt-mail" class="label" for="mail">
+                        Adresse mail
+                    </label>
+                    <input id="input-mail" class="input" type="mail" name="mail" required>
+                    <label id="txt-mdp" class="label" for="Password">
+                        Mot de passe
+                    </label>
+                    <input id="input-mdp" class="input" type="password" name="Password" required>
+                    <label id="Txt-confirmationMdp" class="label" for="Password">
+                        Confirmation du mot de passe
+                    </label>
+                    <input id="input-confirmationMdp" class="input" type="password" name="Password" required>
+                    <br>
+                    <div class="btn">
+                        <button class="btn-input">M'inscrire</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
