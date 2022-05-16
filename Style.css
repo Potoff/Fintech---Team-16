@@ -76,8 +76,8 @@ input {
 }
 
 
-p {
-    font-family : 'Itim', cursif;
+a {
+    font-family : 'Macondo', cursive;
 }
 /*--Fin--*/
 
@@ -127,7 +127,8 @@ p {
 .lien-form {
     text-decoration: none;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    
+    font-family : 'Macondo', cursive;
 }
 
 #deja-inscrit {
@@ -161,7 +162,9 @@ p {
     border-radius: 20px;
     border: solid whitesmoke 2px;
     background-color: whitesmoke;
-}#connecte-toi:hover {
+}
+
+#connecte-toi:hover {
     text-decoration: underline;
 }
 /*--Fin--*/
@@ -177,7 +180,7 @@ p {
     background-color:  whitesmoke;
     border-radius: 20px;
     padding: 2em;
-    font-family : 'Itim', cursif;
+    font-family : 'Macondo', cursive;
     
 }
 
@@ -188,6 +191,7 @@ p {
 
 .label {
     padding-left: 1.5em;
+    font-family : 'Macondo', cursive;
 }
 
 .input {
@@ -197,7 +201,6 @@ p {
 
     padding: .25em;
     margin-bottom: 1em;
-
     background-color: #d9d9d9;
 }
 
@@ -214,19 +217,26 @@ p {
     margin-bottom: 1em;
 
     background-color: #d9d9d9;
-
+    
     border: solid whitesmoke 2px;
     border-radius: 20px;
+    font-family : 'Macondo', cursive;
 
 }
 
 .btn-input:hover {
     text-decoration: underline;
+    
 }
 
 #btn-minscrire {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family : 'Macondo', cursive;
+}
+
+.input-mail {
+    font-family : 'Macondo', cursive;
 }
 /*--Fin--*/
